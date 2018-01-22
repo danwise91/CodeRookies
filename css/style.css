@@ -1,3 +1,15 @@
+html {
+	width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav { box-shadow: 4px 2px 10px; }
+
 .banner {
 	width: 100vw;
     height: 50vh;
@@ -8,6 +20,13 @@
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+}
+
+.card-img-top {
+	max-width: 128px;
+	display: block;
+	margin: 0 auto;
+	padding: 30px 0px;
 }
 
 @-webkit-keyframes Gradient {
