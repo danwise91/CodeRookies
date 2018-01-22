@@ -22,6 +22,8 @@ nav { box-shadow: 4px 2px 10px; }
 	animation: Gradient 15s ease infinite;
 }
 
+.card { box-shadow: 0px 3px 20px rgba(0,0,0,0.2); }
+
 .card-img-top {
 	max-width: 128px;
 	display: block;
