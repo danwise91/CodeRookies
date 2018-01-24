@@ -25,6 +25,43 @@ nav { box-shadow: 4px 2px 10px; }
 	animation: Gradient 15s ease infinite;
 }
 
+.banner-html {
+	width: 100vw;
+    height: 50vh;
+    min-height: 500px;
+	color: #fff;
+	background: linear-gradient(-45deg, rgba(241, 102, 42, 0.4), rgba(241, 102, 42, 0.6), rgba(241, 102, 42, 0.8), rgba(241, 102, 42, 1));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+.banner-css {
+	width: 100vw;
+    height: 50vh;
+    min-height: 500px;
+	color: #fff;
+	background: linear-gradient(-45deg, rgba(52, 169, 220, 0.4), rgba(52, 169, 220, 0.6), rgba(52, 169, 220, 0.8), rgba(52, 169, 220, 1));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+.banner-js {
+	width: 100vw;
+    height: 50vh;
+    min-height: 500px;
+	color: #fff;
+	background: linear-gradient(-45deg, rgba(218, 165, 32, 0.4), rgba(218, 165, 32, 0.6), rgba(218, 165, 32, 0.8), rgba(218, 165, 32, 1));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+
 .banner .container { 
 	display: flex;
 	align-items: center;
@@ -35,7 +72,31 @@ nav { box-shadow: 4px 2px 10px; }
 	width: 225px;
 }
 
+/* Navigation Styling */
+.navbar { 
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.nav-item {
+	font-size: 1.2rem;
+	font-weight: 700;
+	padding-left: 1rem !important;
+	padding-right: 1rem !important;
+	transition: all 0.5s;
+}
+
+.nav-item:hover {font-size: 1.5rem;}
+
+.html-link:hover a {color: rgba(241, 101, 41, 1) !important;}	
+.css-link:hover a {color: rgba(52, 169, 220, 1) !important;}	
+.js-link:hover a {color: rgba(218, 165, 32, 1) !important;}	
+
 .card { box-shadow: 0px 3px 20px rgba(0,0,0,0.2); }
+
+.bg-orange { background-color: rgba(241, 102, 42, 0.3); }
+.bg-blue { background-color: rgba(52, 169, 220, 0.3); }
+.bg-gold { background-color: rgba(240, 219, 80, 0.3); }
 
 .card-img-top {
 	max-width: 128px;
@@ -91,3 +152,7 @@ footer {
 }
 
 .tiles { margin-top: 50px; }
+
+/* Helper Classes */
+
+.full-width { width: 100%; }
