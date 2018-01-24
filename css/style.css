@@ -13,9 +13,6 @@ body {
 
 nav { box-shadow: 4px 2px 10px; }
 
-#aboutContainer{
-	width: 100000px;
-}
 
 .banner {
 	width: 100vw;
@@ -76,15 +73,15 @@ nav { box-shadow: 4px 2px 10px; }
 	width: 225px;
 }
 
-.basicsHeader{
+.basicsContainer{
 	padding-top: 50px;
 }
 
-
-.resourcesHeader{
-	padding-top: 150px;
-	text-align: left;
-	font-style: oblique;
+.borderSpan{
+	width: 10000px;
+}
+.resourcesContainer{
+	padding-top: 10px;
 }
 
 /* Navigation Styling */
@@ -118,6 +115,10 @@ nav { box-shadow: 4px 2px 10px; }
 	display: block;
 	margin: 0 auto;
 	padding: 30px 0px;
+}
+
+.coursesContainer{
+	padding-top: 250;
 }
 
 footer {
