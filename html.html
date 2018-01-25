@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/stagger.css">
 </head>
 
-<body>
+<body id="html-page">
   <!-- Test NavBar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container nav-wrapper">
@@ -75,24 +75,88 @@
           </div>
           <div class="col-md-8 animated fadeInRight">
             <h1>What is HTML?</h1>
-            <p>HTML is the language that builds out the structure of all the websites that you see today! You can kind of think of it like a LEGO set! HTML is the guide, and HTML elements are the LEGO blocks.</p>
+            <p>HTML(Hypertext Markup Language) is the language that builds out the structure of all the websites that you see today! You can kind of think of it like a LEGO set! HTML is the guide, and HTML elements are the LEGO blocks.</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="basicsContainer">
-      <object class="borderSpan" data="html-basics.html"></object>
+    <div id="html-basics">
+      <div class="container content-section">
+        <div class="row">
+          <div class="col-12">
+              <h2>HTML Basics</h2>
+              <p>First thing is first! Before we get started with HTML we will need an application known as a text-editor to edit our files. Your computer comes with one called notepad, but we want something a bit more advanced and power. Listed below are a couple popular text-editors. Choose which one works best! Don't worry both are COMPLETELY free!</p>
+          </div>
+          <div class="col-md-6">
+            <div class="row align-items-center">
+              <div class="col-4">
+                <img src="img/visualstudio-plain.svg" alt="Visual Studio Code">
+              </div>
+              <div class="col-8">
+                <h3>Visual Studio Code</h3>
+                <p>A great program developed by Microsoft. Monthly updates, and fast!(Recommended)</p>
+                <a href="https://code.visualstudio.com/" class="btn btn-primary">Download Visual Studio Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="row align-items-center">
+              <div class="col-4">
+                <img src="img/atom-original.svg" alt="Atom Code Editor">
+              </div>
+              <div class="col-8">
+                <h3>Atom</h3>
+                <p>Built by Github. A good text-editor for beginners and veterans alike!</p>
+                <a href="https://atom.io/" class="btn btn-primary">Download Atom</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h2>Next Steps: Setting up an HTML Document</h2>
+            <p>Now that you have a text-editor installed on you computer go ahead and open it up! Now create a new document by pressing <strong>CTRL+N</strong> if on a PC or <strong>CMD+N</strong> on a Mac</p>
+            <p>Name your file basics<strong>.html</strong> The .html is important as it tells your text editor the type of file you are working on!</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h3>The Basic Structure of an HTML Document</h3>
+            <p>Right now you are staring at an empty html document which must look pretty boring, so lets go ahead and code out the basic structure of an HTML document using a few html tags! Here is an example.</p>
+            <pre>
+              <code>
+                  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!DOCTYPE</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+                      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+                      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>/head</span><span class="token punctuation">&gt;</span></span>
+
+                      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+                      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>/body</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>/html</span><span class="token punctuation">&gt;</span></span>
+              </code>
+            </pre>
+          </div>
+          <div class="col-12">
+              <p>Now you might be asking yourself..."What do these tags mean?" Below are a few quick explanations!</p>
+              <p>For a more advanced description and for more information on the subjects covered below visit <a href="https://developer.mozilla.org/en-US/docs/Glossary/">MDN</a> or <a href="https://www.w3schools.com/tags">W3 Schools</a></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h4><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!DOCTYPE</span><span class="token punctuation">&gt;</span></span></h4>
+            <p>The !DOCTYPE declaration is always the first thing written for an html document. It simply tells your browser what version of html your page is written in. Today the current version of HTML is 5.</p>
+          </div>
+        </div>
+      </div>
     </div>
   
-    <div class="resourcesContainer">
-        <object class="borderSpan" data="html-resources.html"></object>
-    </div>
-
-    <div class="coursesContainer">
-        <object class="borderSpan" data="html-courses.html"></object>
-    </div>
-
+   <!-- <object data="html-resources.html"></object> -->
+  </div>
   <script src="js/jquery-slim.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <!-- This includes popper.js -->
