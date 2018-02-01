@@ -15,6 +15,16 @@ p { font-size: 1.2rem; }
 
 .row { padding-bottom: 30px; }
 
+.reference-resize{
+	height: 300px;
+	width: 300px;
+}
+
+.reference-resize2{
+	height: 300px;
+	width: 500px;
+}
+
 nav { box-shadow: 4px 2px 10px; }
 
 
